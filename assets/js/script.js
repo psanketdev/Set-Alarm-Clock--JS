@@ -4,7 +4,7 @@ console.log('this is alarm mini project');
 
 let alarmTime = document.getElementById('alarmTime');
 let setAlarm = document.getElementById('setAlarm');
-let audio = new Audio('http://freshly-ground.com/data/audio/mpc/20150929%20-%20Amore%20(Dynamic%20Compressor%201.2.6).mp3');
+let audio = new Audio('https://freshly-ground.com/data/audio/mpc/20150929%20-%20Amore%20(Dynamic%20Compressor%201.2.6).mp3');
 setAlarm.addEventListener('click', setAlarmTime); 
 
 function ringAlarm() {
